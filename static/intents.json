@@ -1,0 +1,294 @@
+{
+    "intents":[
+        {
+            "tag":"welcome",
+            "patterns":[
+                "hello jessica", "hello", "hii jessica", "hii", "hey jessica", "hey"
+            ],
+            "responses":[
+                "Hello Master, What can I do for you?", "At your service Master", "Welcome Master", "I'm here Master"
+            ]
+        },
+        {
+            "tag":"exit",
+            "patterns":[
+                "exit", "quit", "eliminate"
+            ],
+            "responses":[
+                "Good Bye Master", "I'll be nice to meet you again, Master"
+            ]
+        },
+        {
+            "tag":"bye_1",
+            "patterns":[
+                "good bye", "bye", "sleep", "see you"
+            ],
+            "responses":[
+                "Good Bye Master", "I'll be here.", "See you Master!"
+            ]
+        },
+        {
+            "tag":"bye_2",
+            "patterns":[
+                "good night", "good night jessica"
+            ],
+            "responses":[
+                "Good Night Master", "Good Night Master, I'm Going to sleep", "See you Master!", "Bye Master"
+            ]
+        },
+        {
+            "tag":"restart",
+            "patterns":[
+                "restart", "troubleshoot", "troubleshoot yourself", "restart yourself"
+            ],
+            "responses":[
+                "restart"
+            ]
+        },
+        {
+            "tag":"retrain",
+            "patterns":[
+                "retrain", "retrain yourself", "train yourself"
+            ],
+            "responses":[
+                "retrain"
+            ]
+        },
+        {
+            "tag":"logout",
+            "patterns":[
+                "logout", "log out", "log out from the system", "log out from the window"
+            ],
+            "responses":[
+                "logout"
+            ]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":[
+                "shutdown", "shutdown the system", "shutdown the window"
+            ],
+            "responses":[
+                "shutdown"
+            ]
+        },
+        {
+            "tag":"error",
+            "patterns":[
+                "error"
+            ],
+            "responses":[
+                "error"
+            ]
+        },
+        {
+            "tag":"greet",
+            "patterns":[
+                "good morning", "good morning jessica", "good afternoon", "good afternoon jessica", "good evening", "good evening jessica"
+            ],
+            "responses":[
+                "greet"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[
+                "how are you", "how are you jessica", "are you ok", "are you ok jessica", "are you fine", "are you fine jessica", "are you alright", "are you alright jessica"
+            ],
+            "responses":[
+                "I'm Fine Master, If I can help you with something, just ask..", "Perfect Master, What can I do for you?", "I'm good Master, thank you for asking. I hope you are doing well too.", "I'm perfect Master, How about you?", "I'm fine Master, How are you?", "I'm fine Master. You're very kind to ask."
+            ]
+        },
+        {
+            "tag":"my_health",
+            "patterns":[
+                "i am fine", "i am also fine", "i am ok", "i am also good", "i am great", "i also doing well", "i am also doing great"
+            ],
+            "responses":[
+                "That's Nice Master", "That's Great Master!", "I'm glad to hear it."
+            ]
+        },
+        {
+            "tag":"intro",
+            "patterns":[
+                "who are you", "about you", "what is your name", "introduce yourself", "what's your name"
+            ],
+            "responses":[
+                "I am your Jessica, I'm here to help you. Let me know if you need anything.", "I'm your AI Assistant, Jessica", "I'm your Jessica. I can play music for you or search something for you. All you have to do is ask", "I am your Jessica. I can look up answers for you or make your tasks easy. If you need anything just ask, Master your wish is my command"
+            ]
+        },
+        {
+            "tag":"dev_intro",
+            "patterns":[
+                "who made you", "who developed you", "what is your developer name", "what is your developers name", "what is your creators name", "what is your creator name", "what's your developers name", "what's your creators name"
+            ],
+            "responses":[
+                "I am developed by isoftTechX in 2022", "I'm created by isoftTechX in 2022"
+            ]
+        },
+        {
+            "tag":"cmd_list",
+            "patterns":[
+                "what can you do", "give your command list", "tell me what you can do"
+            ],
+            "responses":[
+                "I can -> \n tell you the time, day or date.\n search internet about what you want.\n play music or videos with youtube.\n inform you about the weather.\n shutdown or logout form the system."
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[
+                "what's the time", "time", "what's time", "tell me time", "tell me the time"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+        {
+            "tag":"calendar",
+            "patterns":[
+                "what's the date", "date", "what's date", "today's date", "tell me the date",
+                "what's the day", "day", "what's day", "today's day", "today", "tell me the day",
+                "what's the month", "month", "what's month", "tell me the month", "which is this month", "what's the year", "year", "what's year", "tell me the year", "we are in which year"
+            ],
+            "responses":[
+                "calendar"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":[
+                "wikipedia", "search wikipedia", "give information about"
+            ],
+            "responses":[
+                "wikipedia"
+            ]
+        },
+        {
+            "tag":"search",
+            "patterns":[
+                "who", "who is", "who are", "about", "what about", "what", "what is", "what are"
+            ],
+            "responses":[
+                "search"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":[
+                "google", "search", "search about", "google search", "find", "google search about"
+            ],
+            "responses":[
+                "google"
+            ]
+        },
+        {
+            "tag":"youtube",
+            "patterns":[
+                "youtube", "youtube search", "in youtube"
+            ],
+            "responses":[
+                "youtube"
+            ]
+        },
+        {
+            "tag":"weather",
+            "patterns":[
+                "weather", "temperature", "how's the weather", "how is the weather", "what about weather", "what is the temperature"
+            ],
+            "responses":[
+                "weather"
+            ]
+        },
+        {
+            "tag":"precipitate",
+            "patterns":[
+                "rain", "precipitate", "is it going to rain", "is it going to precipitate"
+            ],
+            "responses":[
+                "precipitate"
+            ]
+        },
+        {
+            "tag":"news",
+            "patterns":[
+                "latest news", "today's news", "today's latest news", "news headlines", "today's news headlines", "news about", "headlines about", "news headlines about", "latest news about"
+            ],
+            "responses":[
+                "news"
+            ]
+        },
+        {
+            "tag":"multimedia",
+            "patterns":[
+                "play", "music", "video", "song"
+            ],
+            "responses":[
+                "multimedia"
+            ]
+        },
+        {
+            "tag":"joke",
+            "patterns":[
+                "joke", "tell me a joke", "jokes"
+            ],
+            "responses":[
+                "joke"
+            ]
+        },
+        {
+            "tag":"open",
+            "patterns":[
+                "open ", "open google", "open youtube music", "open youtube", "open mail", "open whatsapp", "open instagram", "open facebook", "open chrome"
+            ],
+            "responses":[
+                "open"
+            ]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":[
+                "take screenshot", "screenshot", "take a screenshot"
+            ],
+            "responses":[
+                "screenshot"
+            ]
+        },
+        {
+            "tag":"snip",
+            "patterns":[
+                "take snip", "snip", "take a snip"
+            ],
+            "responses":[
+                "snip"
+            ]
+        },
+        {
+            "tag":"clear_cache",
+            "patterns":[
+                "clear cache", "remove cache", "clear trash", "remove trash"
+            ],
+            "responses":[
+                "Cleared Cache files", "Removed temporary files", "Cleared temporary files", "Removed Cache files"
+            ]
+        },
+        {
+            "tag":"battery",
+            "patterns":[
+                "battery", "what about battery", "what is the battery percentage", "how much we can work more", "how much battery do we have"
+            ],
+            "responses":[
+                "battery"
+            ]
+        },
+        {
+            "tag":"quick_actions",
+            "patterns":[
+                "... is equal to how many ...", "how many .. are in ..", ".. per .. in .. per ..", ".. is equal to ..", "convert . into ."
+            ],
+            "responses":[
+                "quick_actions"
+            ]
+        }
+    ]
+}
